@@ -5,7 +5,7 @@ import App from './App';
 /**
  * Component is exported for conditional usage in Root.js
  */
-module.exports = class Root extends Component {
+export default class Root extends Component {
   render() {
     const { store } = this.props;
     return (
@@ -19,4 +19,4 @@ module.exports = class Root extends Component {
       </Provider>
     );
   }
-};
+}

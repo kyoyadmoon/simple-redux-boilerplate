@@ -1,9 +1,9 @@
 import React, { Component, PropTypes } from 'react';
 
 export default class Counter extends Component {
-  constructor(props, context) {
-    super(props, context);
-  }
+  // constructor(props, context) {
+  //   super(props, context);
+  // }
 
   handleIncrement() {
     this.props.actions.increment();
